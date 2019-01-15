@@ -12,5 +12,7 @@ end
 countdown(10)
 
 def countdown_with_sleep(seconds)
-  
+  if seconds >= 5 do
+    coundown(seconds)
+  end
 end
